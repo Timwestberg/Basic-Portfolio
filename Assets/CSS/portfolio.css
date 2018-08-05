@@ -1,0 +1,53 @@
+* {
+    border: thin solid red;
+    text-align: center;
+}
+
+body {
+    background-image: url("../Images/swirl_pattern.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    width:100%;
+    background-image:url("../Images/pink\ dust.png");
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 50px;
+    margin: 0px;
+}
+
+#logo {
+    float: left;
+    color: rgb(88, 57, 52);
+    position: relative;
+    bottom: 50px;
+    font-size: 25px;
+    padding: 35px 2px 35px 2px;
+    margin: 0px;
+    background-image:url("../Images/retina_wood_@2X.png")
+}
+
+#nav-bar {
+    text-align: right;
+    float:right;
+    padding: 20px;
+
+    
+
+}
+
+.nav-links {
+    float: right;
+    font-size: 20px;
+    color: rgb(88, 57, 52);
+    position: relative;
+    right: 35px;
+    bottom: 50px;
+    width: 100px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 5px;
+    background-image:url("../Images/retina_wood_@2X.png")
+}
