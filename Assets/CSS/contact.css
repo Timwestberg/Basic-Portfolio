@@ -3,6 +3,15 @@
     text-align: center;
 }
 
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:block;
+    width: 100%;
+}
+
+
+
 /* Beginning of header styles for website , same style should be applied to each page to create a  united theme*/
 
 body {
@@ -12,27 +21,38 @@ body {
 
 header {
     width:100%;
-    background-image:url("../Images/pink\ dust.png");
+    background-image:url("../Images/dark_wood_@2X.png");
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 50px;
     margin: 0px;
+    content: "";
+    clear:both;
 }
 
+@media only screen and (max-width: 585px) {
+    .nav-links {
+    }
+
+#content2 {
+    float: left;
+}
+}
 #logo {
     float: left;
+    width:35%;
+    height: 100%;
     color: rgb(88, 57, 52);
     position: relative;
     bottom: 50px;
+    right: 20px;
     font-size: 25px;
-    padding: 35px 2px 35px 2px;
+    padding: 42px 3px 42px 3px;
     margin: 0px;
     background-image:url("../Images/retina_wood_@2X.png")
 }
 
 #nav-bar {
-    text-align: right;
-    float:right;
-    padding: 20px;
+ border: none;
 
     
 
@@ -43,8 +63,8 @@ header {
     font-size: 20px;
     color: rgb(88, 57, 52);
     position: relative;
-    right: 35px;
-    bottom: 50px;
+    right: 45px;
+    bottom: 30px;
     width: 100px;
     text-decoration: none;
     list-style: none;

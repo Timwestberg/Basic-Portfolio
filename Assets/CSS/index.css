@@ -1,5 +1,4 @@
 * {
-    border:
     text-align: center;
     background-image: url("../Images/dark_wood_@2X.png");
 }
@@ -48,7 +47,7 @@ header {
     right: 20px;
     font-size: 25px;
     padding: 42px 3px 42px 3px;
-    margin: 0px;
+    margin: 0px 10px 0px 10px;
     background-image:url("../Images/retina_wood_@2X.png")
 }
 
@@ -76,10 +75,10 @@ header {
 }
 
 #main-content {
-    float:left;
+    float: left;
     text-align: left;
-    width: 100%;
-    margin: 0px;
+    margin: 35px;
+    width: 87%;
     background-image: url("../Images/pink\ dust.png");
     color: white;
 }
@@ -137,7 +136,7 @@ p {
 
 
 #content2 {
-float:left;
+float: left;
 width:75%;
 padding:0;
 position: relative;
@@ -149,7 +148,8 @@ background-image: url("../Images/pink\ dust.png");
 }
 
 footer {
-    padding: 70px;
+    padding: 40px;
+    width: 100%;
     background-image: url("../Images/pink\ dust.png");
     text-align: center;
     font-size: 25px;
