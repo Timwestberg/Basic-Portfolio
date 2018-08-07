@@ -1,7 +1,11 @@
+
+/* applies to entire page as default */
 * {
     border: thin solid red;
     text-align: center;
 }
+
+/* Beginning of header styles for website , same style should be applied to each page to create a  united theme*/
 
 body {
     background-image: url("../Images/swirl_pattern.png");
