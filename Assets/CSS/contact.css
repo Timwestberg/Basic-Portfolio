@@ -1,6 +1,6 @@
 * {
-    border: thin solid red;
     text-align: center;
+    background-image: url("../Images/dark_wood_@2X.png");
 }
 
 .clearfix::after{
@@ -28,18 +28,16 @@ header {
     clear:both;
 }
 
-
 #logo {
     float: left;
-    width:35%;
     height: 100%;
     color: rgb(88, 57, 52);
-    position: relative;
-    bottom: 50px;
-    right: 20px;
     font-size: 25px;
-    padding: 42px 3px 42px 3px;
-    margin: 0px;
+    position: relative;
+    bottom: 45px;
+    right: 20px;
+    padding: 30px 0px 30px 0px;
+    margin: 5px;
     background-image:url("../Images/retina_wood_@2X.png")
 }
 
@@ -63,6 +61,9 @@ header {
     padding: 0px;
     margin: 10px;
 }
+
+/* Effects for navbar Links */
+
 a:link, a:visited {
     background-image: url(../Images/retina_wood_@2X.png);
     color: rgb(88, 57, 52);
@@ -76,12 +77,15 @@ a:hover, a:active {
     background-image:url(../Images/swirl_pattern.png);
     color: black;
 }
+#footer-p {
+    position: relative;
+    font-size: 25px;
+    
+}
 
 footer {
-    padding: 25px;
-    width: 100%;
+    padding: 0px 0px 175px 0px;
     background-image: url("../Images/pink\ dust.png");
-    text-align: left;
-    font-size: 25px;
+    margin: 20px;
     color: rgb(98, 190, 98);
 }
