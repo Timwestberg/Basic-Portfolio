@@ -4,14 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact</title>
-  <link rel="stylesheet" type="text/css" href="Assets/CSS/index.css">
+  <link rel="stylesheet" type="text/css" href="Assets/CSS/contact.css">
 </head>
 
 <body>  
 
 <!-- Combined Header and nav-bar website to be built out from mobile
      first prespective so page is responsive by the end -->
-
+<div class="clearfix">
 <header>
 
 <!--  Floated to the left side, made a different color(green) -->
@@ -34,10 +34,26 @@
 
 
 </header>
+</div>
+
+  <Form>
+
+    <fieldset>
+    <label for="Name">Name:</label>
+    <input class="F-elements"type="text" name="Name" placeholder="Some may call this your personal identity...">
+    <br>
+    <label for="Name">Email:</label>
+    <input class="F-elements" type="email" name="Email" placeholder="Arrg I'm a pirate kindly gimme your email...">
+    <br>
+    <label for="Name">Message:</label>
+    <textarea rows="4" cols="40" id="message-box" type="textarea" name="message" placeholder="What can I help you with today..."></textarea>
+    <button type="submit" name="submit"></button>
+    </fieldset>
+
+  </Form>
+  
         
         
-        
-        
-<<footer> <p id="footer-p"> &copy; FormulaGeneration 2018 <p></footer>
+<footer> <p id="footer-p"> &copy; FormulaGeneration 2018 <p></footer>
 </body>
 </html>
