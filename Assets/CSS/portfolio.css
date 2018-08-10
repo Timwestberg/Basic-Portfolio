@@ -89,3 +89,16 @@ footer {
     margin: 20px;
     color: rgb(98, 190, 98);
 }
+
+section {
+    width:550px;
+    height: 600px;
+    padding: 100px;
+}
+
+h1 {
+    font-size:25px;
+    border: thin solid red;
+    border-radius: 8px;
+    background-image: url(../Images/pink\ dust.png);
+}
