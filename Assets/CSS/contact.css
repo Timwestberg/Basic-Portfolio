@@ -135,11 +135,13 @@ button:hover, button:active {
 }
 
 button {
-    color:rgb(13, 194, 13);
+    color:rgb(189, 27, 108);  
     width:50%;
     padding: 15px;
     margin: 5px;
     font-size: 30px;
+    border-radius: 12px;
+    background-image: url(../Images/rick1.jpg);
    
 }
 section {
@@ -148,7 +150,8 @@ section {
 }
 fieldset {
     background-image: url(../Images/pink\ dust.png);
-    margin: 20px 15px 15px 15px;
+    margin: 20px 15px 15px 35px;
+    border-radius: 12px;
 
 }
 
